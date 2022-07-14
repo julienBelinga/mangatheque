@@ -1,0 +1,10 @@
+#collection-container, #liste-manga{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 340px);
+    grid-template-rows: repeat(auto-fill, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 80%;
+    margin: 20px auto;
+    justify-content: space-around;
+}

@@ -1,0 +1,31 @@
+.serie-header{
+    display: inline-flex;
+    background-color: rgb(175, 175, 175);
+    justify-content: center;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    img{
+        height: 250px;
+        object-fit: contain;
+        margin: 20px;
+    }
+}
+
+.header-description{
+    width: 75%;
+    float: left;
+    margin-left: 15px;
+
+    h2{
+        text-align: center;
+    }
+    a{
+        margin-left: 95%;
+        color: #fff !important;
+        background-color: green;
+        padding: 12px;
+        border-radius: 20px;
+    }
+}
